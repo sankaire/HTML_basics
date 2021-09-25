@@ -1,2 +1,3 @@
 # html_basics
-some basic html syntax
+This is a repository to help the Zetech web club members to learn some web basics.
+Be free to fork, clone, and contribute.
