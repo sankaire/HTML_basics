@@ -9,31 +9,32 @@
 </head>
 <body>
     <div class="order-form">
-        <form>
+        <form action="./succes.html">
             <span>
                 First Name
-                <input type="text">
+                <input type="text" id="fname">
             </span>
             <span>
                 Second Name
-                <input type="text">
+                <input type="text" id="sname">
             </span>
             <span>
                 Phone Number
-                <input type="text">
+                <input type="text" id="phone">
             </span>
             <span>
                 Apartment
-                <input type="text">
+                <input type="text" id="house">
             </span>
             <span>
                 Town
-                <input type="text">
+                <input type="text" id="city">
             </span>
-            <button class="submit">
+            <button class="submit" onclick= "return formValidation()">
                 Submit
             </button>
         </form>
     </div>
+    <script src="../js/formValidation.js"></script>
 </body>
 </html>
