@@ -1,0 +1,12 @@
+$primary-color:gray;
+$secondary-color:green;
+
+//grid.html
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    span{
+        display: flex;
+        // flex-direction: row;
+    }
+}
